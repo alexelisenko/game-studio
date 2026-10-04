@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" data-mak-report="document">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IronFall · Concepts round 3</title>
+  <link rel="stylesheet" href="../_shared/report.css">
+  <link rel="stylesheet" href="../_shared/examples.css">
+  <script defer src="../_shared/report.js"></script>
+  <style>.variants.two-up{grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}</style>
+</head>
+<body>
+<main class="container">
+  <div class="eyebrow">IronFall / concept art</div>
+  <h1>IronFall · Concepts round 3</h1>
+  <p class="lead">The content of the game in the high-fidelity direction: weapons and their fire patterns, power-ups, more enemies, a boss, the hero, and four stage themes.</p>
+  <div class="callout">Direction: high-fidelity real-time (round 2, option B). Model: Nano Banana Pro on Higgsfield, 16:9, 2K. Ten images, 20 credits observed (1,040 → 1,020). The hero sheet was added to the proposed nine as the reference for the Unity test character. Click an image to inspect it at full size and download it.</div>
+  
+  <div class="obj-card" id="r3_weapons">
+    <div class="card-header">
+      <div class="card-num">01</div>
+      <div><div class="card-title">Weapons: eight guns</div><div class="card-desc">Spread, laser, flamethrower, homing missiles (top row); rail gun, shotgun, grenade launcher, minigun (bottom row)</div></div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job 4d97013b-b292-4db9-b939-ad192cf2b551</div>
+        <img src="concepts/r3_weapons/r3_weapons.webp" alt="Eight heavy guns on gray: spread gun, blue laser rifle, twin-tank flamethrower, four-tube missile launcher, cyan rail gun, drum shotgun, yellow-banded grenade launcher and belt-fed minigun" loading="lazy">
+        <a class="media-download" href="concepts/r3_weapons/r3_weapons.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Weapon lineup concept sheet for a gritty sci-fi military action game: eight heavy two-handed guns arranged in two rows of four, side view, each clearly separated, near-future military hardware blended with 1980s action-movie bulk, each with a distinct silhouette and one colored energy accent that matches its projectile. Top row: a spread gun with a wide fan-shaped five-barrel muzzle and orange accents; a laser rifle with blue glowing coils; a flamethrower with twin fuel tanks and a pilot flame; a shoulder-fired homing missile launcher with a four-tube pod and a red tracking lens. Bottom row: a long rail gun with magnetic rails and a white-cyan glow; a pump shotgun with a drum magazine; a revolver-cylinder grenade launcher with yellow-banded grenades; a six-barrel minigun with an ammo belt. High-fidelity real-time 3D game asset render in the style of a modern AAA top-down shooter: physically based materials with wear, grime and mud, realistic adult proportions, clean readable silhouettes, plain medium-gray studio background, soft even studio lighting with a subtle rim light, subtle contact shadows, no text, no labels, no numbers, no UI, no watermark. 16:9 wide framing.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div><h4>What works</h4><ul><li>Eight distinct silhouettes that read even in shadow.</li><li>Each gun&#x27;s glow matches its shots: orange spread, blue laser, cyan rail, yellow grenades.</li><li>Grounded 80s-military bulk with just enough sci-fi.</li></ul></div>
+      <div><h4>Issues</h4><ul><li>The spread gun&#x27;s muzzle is a ring of barrels, not a fan.</li><li>The shotgun and grenade launcher look like real-world guns. They may need a sci-fi touch to sit beside the laser and rail gun.</li></ul></div>
+    </div>
+  </div>
+  <div class="obj-card" id="r3_projectiles">
+    <div class="card-header">
+      <div class="card-num">02</div>
+      <div><div class="card-title">Weapons: fire patterns in play</div><div class="card-desc">Each gun firing from the real gameplay camera</div></div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job f28a9a56-cdd5-4a88-b3d3-cee7df176ece</div>
+        <img src="concepts/r3_projectiles/r3_projectiles.webp" alt="Eight overhead panels of a commando firing a spread fan, blue laser, flamethrower, homing missiles, rail beam, shotgun pellets, grenade fire ring and minigun tracers at bone-shelled crawlers" loading="lazy">
+        <a class="media-download" href="concepts/r3_projectiles/r3_projectiles.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Concept sheet of eight gameplay vignettes in a grid of four columns and two rows of equal panels separated by thin dark gutters. Each panel is a real-time 3D gameplay view from a high overhead camera pitched about 65 degrees down onto wet jungle mud, showing one commando in sleeveless fatigues and a red bandana firing a different weapon at a few bone-shelled alien crawlers with glowing amber blisters. Top row, left to right: a spread gun throwing a wide fan of five glowing orange bolts; a laser rifle firing a continuous crackling blue beam; a flamethrower spraying a cone of rolling orange fire that ignites the ground; homing missiles curving on smoke trails with red tips. Bottom row, left to right: a rail gun firing a single straight white-cyan line that pierces three enemies; a shotgun blast of short yellow pellets in a tight cone; a grenade launcher lobbing a yellow-banded grenade in an arc that explodes in a ring of fire and dirt; a minigun spitting a dense stream of orange tracers with spent shell casings. High-fidelity real-time rendering, physically based materials, bloom on projectiles; each fire pattern is instantly distinguishable by shape and color. No HUD, no text, no numbers, no labels, no watermark. 16:9 wide framing.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div><h4>What works</h4><ul><li>All eight patterns are distinguishable by shape and color at gameplay scale. This is the most useful sheet for effects work.</li><li>The flamethrower&#x27;s burning ground and the grenade&#x27;s fire ring show area denial.</li></ul></div>
+      <div><h4>Issues</h4><ul><li>In the missile panel he holds a minigun, and the grenade is thrown by hand.</li><li>The rail shot doesn&#x27;t visibly pierce, and its cyan sits close to the laser&#x27;s blue. Push the rail to white or violet.</li><li>The crawlers drifted to tan shells.</li></ul></div>
+    </div>
+  </div>
+  <div class="obj-card" id="r3_powerups">
+    <div class="card-header">
+      <div class="card-num">03</div>
+      <div><div class="card-title">Power-ups: six capsules</div><div class="card-desc">Weapon, shield, speed, drone buddy, airstrike, health</div></div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job 3ed47d0e-8a4d-4a5f-ae23-c03e2bead5d0</div>
+        <img src="concepts/r3_powerups/r3_powerups.webp" alt="Six floating winged capsules: orange weapon, cyan shield bubble, yellow speed, white with a docked drone, red airstrike beacon and green health, each glowing on a wet floor" loading="lazy">
+        <a class="media-download" href="concepts/r3_powerups/r3_powerups.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Power-up pickup lineup concept sheet for a gritty sci-fi military action game: six floating winged capsules in a row, three-quarter top-down view, each a rugged metal military capsule with small folding wings and a glowing core, distinguished by color and by a simple raised emblem shape rather than letters: an orange capsule with a fan-of-bolts emblem for weapon upgrade; a cyan capsule projecting a faint hexagonal shield bubble; a yellow capsule with a lightning chevron for speed; a white capsule with a tiny hovering combat drone docked on top; a red capsule with a blinking beacon and antenna for airstrike; a green capsule with a plus-shaped emblem for health. Each casts colored light on the floor beneath it. High-fidelity real-time 3D game asset render in the style of a modern AAA top-down shooter: physically based materials with wear, grime and mud, realistic adult proportions, clean readable silhouettes, plain medium-gray studio background, soft even studio lighting with a subtle rim light, subtle contact shadows, no text, no labels, no numbers, no UI, no watermark. 16:9 wide framing.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div><h4>What works</h4><ul><li>Color, emblem and floor glow make each type readable at a glance.</li><li>The shield bubble and docked drone preview the effect before pickup.</li><li>One shared capsule body with variants keeps the 3D work cheap.</li></ul></div>
+      <div><h4>Issues</h4><ul><li>They read as boxy and slightly toy-like rather than gritty.</li><li>The red airstrike competes with the red hero and red danger colors. Consider another color.</li><li>The wings are stubby.</li></ul></div>
+    </div>
+  </div>
+  <div class="obj-card" id="r3_enemies2">
+    <div class="card-header">
+      <div class="card-num">04</div>
+      <div><div class="card-title">Enemies: second lineup</div><div class="card-desc">Commando for scale, elite crawler, infected soldier, turret growth, shield carrier, burrower</div></div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job 420c2b54-99e2-48cb-94b8-5cacec4d20e6</div>
+        <img src="concepts/r3_enemies2/r3_enemies2.webp" alt="Second alien lineup: commando for scale, a red-glowing elite crawler, an infected soldier overgrown with purple flesh, a fleshy turret fused into a sandbag nest, a shield carrier with a bone shield and a worm bursting from mud" loading="lazy">
+        <a class="media-download" href="concepts/r3_enemies2/r3_enemies2.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Second creature lineup concept sheet for an original alien biomechanical faction in a gritty sci-fi military action game. Shape language: bone-white armor plates, bruise-purple flesh and glowing amber veins, organic but engineered, avoiding insectoid humanoids and elongated heads. Left to right, each figure full body and clearly separated, three-quarter front view, in a calm readable pose: a muscular human commando in a red bandana and sleeveless fatigues for scale; an elite crawler, a knee-high six-legged tick-like creature with heavier black-tipped armor and a glowing red blister; an infected soldier, a former human soldier in torn fatigues and a helmet half-overgrown with purple flesh and bone plates, one arm mutated into an acid-dripping growth, eyes glowing amber; a turret growth, a rooted fleshy pod fused into a sandbag machine-gun nest with a bone barrel and an acid-green sac; a shield carrier, a hunched biped holding a huge curved bone plate as a shield in front of its body; and a burrower, a segmented armored worm bursting out of a patch of ground in a spray of mud. High-fidelity real-time 3D game asset render in the style of a modern AAA top-down shooter: physically based materials with wear, grime and mud, realistic adult proportions, clean readable silhouettes, plain medium-gray studio background, soft even studio lighting with a subtle rim light, subtle contact shadows, no text, no labels, no numbers, no UI, no watermark. 16:9 wide framing.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div><h4>What works</h4><ul><li>The infected soldier adds a human-shaped enemy that fits the faction.</li><li>The turret growth shows the aliens absorbing human structures.</li><li>The shield carrier and burrower each bring a distinct mechanic: flank it, or watch the ground.</li></ul></div>
+      <div><h4>Issues</h4><ul><li>It&#x27;s an inked illustration again, not the in-game render look.</li><li>The elite crawler&#x27;s red glow collides with the red hero and red power-up colors.</li></ul></div>
+    </div>
+  </div>
+  <div class="obj-card" id="r3_boss">
+    <div class="card-header">
+      <div class="card-num">05</div>
+      <div><div class="card-title">Boss: the dam wall</div><div class="card-desc">A colossal alien fused into a captured dam gate</div></div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job 9d3099e4-7986-40a0-baf0-b9b98fd4d820</div>
+        <img src="concepts/r3_boss/r3_boss.webp" alt="Boss concept: a giant bone skull with an amber core behind its ribs fused into a dam gate, four acid-spitting cannon pods and tendrils dragging tanks, with two tiny commandos firing from a rainy arena" loading="lazy">
+        <a class="media-download" href="concepts/r3_boss/r3_boss.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Boss concept art for a gritty sci-fi military action game, elevated three-quarter view from high above to show scale: a colossal alien biomechanical boss fused into the concrete wall and steel blast gate of a captured military dam. At its center a giant bone-white armored skull-like face with a pulsing amber core behind cracked ribs; four fleshy cannon pods along the wall spit acid-green globs; tendrils drag wrecked tanks; purple fungal creep covers the concrete; spillway water roars beside it. Two tiny commandos with red and blue bandanas fire up at it from a rain-soaked concrete arena with cover blocks and explosive barrels; the boss is about thirty times their height. Several glowing weak points are readable from far away. High-fidelity real-time rendering, physically based materials, volumetric mist and spray, warm core light against cool teal shadows. No text, no HUD, no logos. 16:9 wide framing.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div><h4>What works</h4><ul><li>A modern take on the classic wall boss, with clear weak points: the core behind the ribs and the cannon pods.</li><li>Tanks dragged by tendrils sell the scale, and the arena&#x27;s cover blocks and barrels are directly usable.</li></ul></div>
+      <div><h4>Issues</h4><ul><li>The blue lights on the gate frame are unexplained.</li><li>The real fight happens under the gameplay camera, which can&#x27;t show the whole boss. It needs a gameplay-camera version.</li></ul></div>
+    </div>
+  </div>
+  <div class="obj-card" id="r3_hero_sheet">
+    <div class="card-header">
+      <div class="card-num">06</div>
+      <div><div class="card-title">Hero: red commando sheet</div><div class="card-desc">Front, three-quarter and back views in an A-pose</div></div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job 4300ef97-362f-4c4d-8838-94fa50999121</div>
+        <img src="concepts/r3_hero_sheet/r3_hero_sheet.webp" alt="Character sheet of the red-bandana commando in an A-pose: front, three-quarter and back views with olive vest, bandolier, fingerless gloves, knee pads and boots" loading="lazy">
+        <a class="media-download" href="concepts/r3_hero_sheet/r3_hero_sheet.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Character model sheet of a commando hero for a modern 3D top-down shooter: the same man in three full-body views side by side, front, side profile and back, standing in a relaxed A-pose with arms slightly away from the body, on a plain medium-gray background with soft even studio lighting. A muscular battle-hardened man in his thirties with short dark hair and stubble, a red bandana tied around the forehead with long tails, a sleeveless olive drab fatigue vest over a black tank top, an ammo bandolier across the chest, tactical webbing with pouches, fingerless gloves, olive cargo pants with knee pads, black combat boots and a holstered sidearm. Realistic adult proportions, high-fidelity real-time game character, physically based materials with mud and wear, identical design in all three views, empty hands, no weapon held. No text, no labels, no watermark. 16:9 wide framing.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div><h4>What works</h4><ul><li>Consistent across views, with a believable 80s action hero.</li><li>The A-pose suits rigging. This is the starting reference for the Unity test character.</li></ul></div>
+      <div><h4>Issues</h4><ul><li>The middle view is three-quarter, not a strict side profile.</li><li>As modeling input, we&#x27;d make a strict front, side and back set with the character-sheet skill.</li></ul></div>
+    </div>
+  </div>
+  <div class="obj-card" id="r3_stages">
+    <div class="card-header">
+      <div class="card-num">07</div>
+      <div><div class="card-title">Stages: four themes</div><div class="card-desc">Jungle outpost, infested city, dam and waterfall, hive interior</div></div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants two-up">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job 9209269d-9902-41c5-bd60-a6c166ec586a</div>
+        <img src="concepts/r3_map_outpost/r3_map_outpost.webp" alt="Jungle outpost stage: commandos with red and blue ground rings fight crawlers among huts, a watchtower, a mounted machine gun, a jeep, red barrels and a rope bridge in the rain" loading="lazy">
+        <a class="media-download" href="concepts/r3_map_outpost/r3_map_outpost.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Real-time 3D gameplay screenshot of a modern high-end PC and console top-down shooter. High overhead gameplay camera pitched about 65 degrees down; the ground fills the entire frame with no sky and no horizon. Characters are small, each about one fifteenth of the frame height, with open ground around them so the action reads clearly. High-fidelity real-time rendering: physically based materials, dynamic shadows, volumetric smoke and fog, wet reflective surfaces, detailed physics debris, film-like color grade. Keep the playfield readable: no area darker than deep shadow, enemies picked out by rim light. Stage theme: jungle outpost. Two commandos in sleeveless fatigues, one with a red bandana and one with a blue bandana, each with a faint ring of light on the ground beneath them matching their bandana color, fight side by side. They push through a jungle firebase full of interactive elements: a mounted heavy machine gun on a sandbag nest that a player can use, a drivable military jeep, red explosive fuel barrels, a wooden watchtower that can be shot down, a chain-link gate, destructible wooden huts with corrugated roofs, and a muddy river crossing with a rope bridge. Crawlers and a spitter of the alien biomechanical faction with bone-white armor plates, bruise-purple flesh, glowing amber veins and weak points, and purple fungal creep attack from the tree line. Rain, flickering fire light, mist. Enemy projectiles are glowing acid-green orbs. Only the two commandos are human; no other people. No HUD, no text, no logos.</pre></details>
+      </div><div class="variant">
+        <div class="var-label">Nano Banana Pro · job 28bd8efa-6cb4-463a-b9a2-1a13acec381b</div>
+        <img src="concepts/r3_map_city/r3_map_city.webp" alt="Infested city stage: commandos fight in a rainy ruined street with an overturned bus, burned cars, an exploding gas station and purple creep pouring from an apartment block" loading="lazy">
+        <a class="media-download" href="concepts/r3_map_city/r3_map_city.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Real-time 3D gameplay screenshot of a modern high-end PC and console top-down shooter. High overhead gameplay camera pitched about 65 degrees down; the ground fills the entire frame with no sky and no horizon. Characters are small, each about one fifteenth of the frame height, with open ground around them so the action reads clearly. High-fidelity real-time rendering: physically based materials, dynamic shadows, volumetric smoke and fog, wet reflective surfaces, detailed physics debris, film-like color grade. Keep the playfield readable: no area darker than deep shadow, enemies picked out by rim light. Stage theme: infested city ruins. Two commandos in sleeveless fatigues, one with a red bandana and one with a blue bandana, each with a faint ring of light on the ground beneath them matching their bandana color, fight side by side. They fight down a rubble-filled street of a collapsed tropical port city: cracked asphalt, an overturned bus and burned cars used as cover, a gas station mid-explosion, a half-collapsed apartment block with exposed floors, and toppled burning streetlights. Purple creep of the alien biomechanical faction with bone-white armor plates, bruise-purple flesh, glowing amber veins and weak points, and purple fungal creep covers the walls with glowing amber egg sacs; crawlers pour out of a broken storefront and a hulking shelled brute smashes through a wall. Enemy projectiles are glowing acid-green orbs. Only the two commandos are human; no other people. No HUD, no text, no logos.</pre></details>
+      </div><div class="variant">
+        <div class="var-label">Nano Banana Pro · job a20b89bd-3bcd-4abf-b2d6-bb21412321cb</div>
+        <img src="concepts/r3_map_dam/r3_map_dam.webp" alt="Dam stage: commandos on a steel catwalk over a roaring spillway fight crawlers and manta-like flyers, with a crane holding a shipping container and steam pipes" loading="lazy">
+        <a class="media-download" href="concepts/r3_map_dam/r3_map_dam.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Real-time 3D gameplay screenshot of a modern high-end PC and console top-down shooter. High overhead gameplay camera pitched about 65 degrees down; the ground fills the entire frame with no sky and no horizon. Characters are small, each about one fifteenth of the frame height, with open ground around them so the action reads clearly. High-fidelity real-time rendering: physically based materials, dynamic shadows, volumetric smoke and fog, wet reflective surfaces, detailed physics debris, film-like color grade. Keep the playfield readable: no area darker than deep shadow, enemies picked out by rim light. Stage theme: dam and waterfall. Two commandos in sleeveless fatigues, one with a red bandana and one with a blue bandana, each with a faint ring of light on the ground beneath them matching their bandana color, fight side by side. They fight across the top of a concrete hydroelectric dam: steel catwalks over a roaring spillway, a gantry crane carrying a shipping container that can be dropped, breakable floodgates, rusted pipes venting steam, yellow warning stripes, rain and spray mist. Manta-like flyers of the alien biomechanical faction with bone-white armor plates, bruise-purple flesh, glowing amber veins and weak points, and purple fungal creep swoop in dropping glowing spore pods, and crawlers climb over the railings. Enemy projectiles are glowing acid-green orbs. Only the two commandos are human; no other people. No HUD, no text, no logos.</pre></details>
+      </div><div class="variant">
+        <div class="var-label">Nano Banana Pro · job f59cc764-c7d3-4447-af6f-849c6be3f319</div>
+        <img src="concepts/r3_map_hive/r3_map_hive.webp" alt="Hive interior stage: commandos in an organic cavern with acid-green pools, amber egg sacs, swallowed armored vehicles and a giant glowing amber heart guarded by crawlers" loading="lazy">
+        <a class="media-download" href="concepts/r3_map_hive/r3_map_hive.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Real-time 3D gameplay screenshot of a modern high-end PC and console top-down shooter. High overhead gameplay camera pitched about 65 degrees down; the ground fills the entire frame with no sky and no horizon. Characters are small, each about one fifteenth of the frame height, with open ground around them so the action reads clearly. High-fidelity real-time rendering: physically based materials, dynamic shadows, volumetric smoke and fog, wet reflective surfaces, detailed physics debris, film-like color grade. Keep the playfield readable: no area darker than deep shadow, enemies picked out by rim light. Stage theme: hive interior. Two commandos in sleeveless fatigues, one with a red bandana and one with a blue bandana, each with a faint ring of light on the ground beneath them matching their bandana color, fight side by side. They advance through a vast organic cavern inside the alien hive: ground of ribbed bone and purple flesh, pulsing membrane walls that can burst, pools of glowing acid-green fluid, clusters of glowing amber egg sacs, bioluminescent veins as the main light source, and the wreckage of swallowed military vehicles half-absorbed into the walls. Crawlers and spitters of the alien biomechanical faction with bone-white armor plates, bruise-purple flesh, glowing amber veins and weak points, and purple fungal creep defend a giant pulsing amber heart at the far edge of the playfield. Enemy projectiles are glowing acid-green orbs. Only the two commandos are human; no other people. No HUD, no text, no logos.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div><h4>What works</h4><ul><li>The colored ground rings solve hero identification. Keep them.</li><li>Outpost: every requested interactive element is present and readable: mounted gun, jeep, barrels, watchtower, fence, huts, rope bridge.</li><li>City: a strong cover layout, a set-piece gas station explosion, and a brute smashing through a wall to show destructible walls.</li><li>Dam: vertical layers (a catwalk over the spillway, a crane container drop) make it the most distinct stage.</li><li>Hive: the most atmospheric, with a clear objective in the amber heart.</li></ul></div>
+      <div><h4>Issues</h4><ul><li>Enemy designs drift between images. Crawlers become tall insect bipeds, and the flyers lose their glowing membranes.</li><li>City: acid shots became green streaks, and the amber egg sacs look like enemy weak points.</li><li>Dam: an extra small human figure appears at bottom center, and no floodgates are visible.</li><li>Hive: the acid pools match the enemy shots&#x27; green, so fire would vanish over the pools. One of the two colors must change.</li><li>The outpost&#x27;s top edge is very dark.</li></ul></div>
+    </div>
+  </div>
+
+  <section>
+    <h2>What round 3 teaches</h2>
+    <ul class="checklist">
+      <li><strong>Color language works:</strong> heroes in red and blue with ground rings, player fire warm or blue, enemy fire acid green, alien weak points amber. Keep red away from enemies and power-ups, and green away from scenery.</li>
+      <li><strong>Prompts can't hold a design:</strong> the same crawler text gives different creatures in different scenes. Before production, each enemy needs a locked model sheet or 3D model, and later images should use those as references.</li>
+      <li><strong>The content list is ready to confirm:</strong> 8 weapons, 6 power-ups, 10 enemy types, one boss and 4 stages. It's recorded in the project brief.</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

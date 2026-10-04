@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en" data-mak-report="document">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IronFall · Concepts round 2</title>
+  <link rel="stylesheet" href="../_shared/report.css">
+  <link rel="stylesheet" href="../_shared/examples.css">
+  <script defer src="../_shared/report.js"></script>
+  <style>.compare td,.compare th{overflow-wrap:normal;word-break:normal;min-width:9em}.compare td:first-child{white-space:nowrap;font-weight:600;min-width:0}</style>
+</head>
+<body>
+<main class="container">
+  <div class="eyebrow">IronFall / concept art</div>
+  <h1>IronFall · Concepts round 2</h1>
+  <p class="lead">The same fight seen from the real gameplay camera at two levels of rendering detail, plus a first lineup of an original alien faction. The choice between A and B sets the look, and the look narrows the engine.</p>
+  <div class="callout">Model: Nano Banana Pro on Higgsfield, 16:9, 2K. Three images, 6 credits observed (1,046 → 1,040). All three prompts share one alien description, so the faction stays consistent. Click an image to inspect it at full size and download it.</div>
+
+  <div class="obj-card" id="r2_a_stylized">
+    <div class="card-header">
+      <div class="card-num">A</div>
+      <div>
+        <div class="card-title">Stylized real-time</div>
+        <div class="card-desc">The level of detail a browser engine such as Three.js handles comfortably</div>
+      </div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job 0e970b94-4976-4de3-bbdb-67a31f7ad041 · cropped</div>
+        <img src="concepts/r2_a_stylized/r2_a_stylized.webp" alt="Stylized IronFall mockup from a high overhead camera: chunky red and blue bandana commandos fire a spread fan and a lightning laser at a swarm of bone-shelled crawlers, an armored brute and an acid-spitting bulb, with a hive spire on a bunker" loading="lazy">
+        <a class="media-download" href="concepts/r2_a_stylized/r2_a_stylized.png" download>Download original PNG (uncropped, 2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Real-time 3D gameplay screenshot of a polished indie twin-stick shooter running in a web browser. High overhead gameplay camera pitched about 65 degrees down; the ground fills the entire frame with no sky and no horizon. Characters are small, each about one fifteenth of the frame height, with open ground around them so the action reads clearly. Stylized realism: simplified readable shapes, mid-poly models with hand-painted textures, soft baked lighting from one warm low sun, crisp shadows, bloom on muzzle flashes and projectiles, sprite-based smoke and sparks. Scene: a jungle military outpost of sandbag walls, concrete bunkers, a wooden watchtower and fuel barrels, on muddy ground with palm trees at the edges. Two commandos in sleeveless fatigues, one with a red bandana and one with a blue bandana, fight side by side. The red commando fires a spread gun throwing a wide fan of glowing orange bolts; the blue commando fires a crackling blue laser beam. They face an original alien biomechanical faction with bone-white armor plates, bruise-purple flesh and glowing amber veins, not insectoid humanoids and no elongated heads: low six-legged tick-like crawlers swarming at knee height, each with a glowing amber blister on its back; one hulking quadruped brute with a bone-plated shell and a glowing amber weak point on its back; a rooted spitter, a fleshy mortar-like bulb on root legs, lobbing glowing acid-green globs; and in one corner a hive spire of bone and tendrils growing out of a captured concrete bunker with a pulsing amber core, purple fungal creep spreading across the ground around it. Enemy projectiles are glowing acid-green orbs, clearly visible against the ground. The watchtower collapses in an explosion, a fuel barrel bursts into a fireball, sandbags scatter as debris, scorched craters mark the ground. A small winged weapon capsule floats near the players as a power-up pickup. Only the two commandos are human; no other people. No HUD, no text, no logos.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div>
+        <h4>What works</h4>
+        <ul>
+          <li>The camera is right: high, no horizon, open ground around the heroes.</li>
+          <li>Excellent readability. Every enemy type is identifiable at a glance, and the bone-white crawlers stand out against the mud.</li>
+          <li>Clean shapes and simple lighting are a natural fit for Three.js. They'd also run smoothly on modest hardware.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Issues</h4>
+        <ul>
+          <li>The model drew fake browser chrome across the top, which is cropped here. The original is kept.</li>
+          <li>The tone drifted to cute. The commandos are big-headed chibis in helmets, which loses the gritty 80s action hero.</li>
+          <li>The watchtower stands intact. Only the barrels explode.</li>
+          <li>Enemy fire is hard to find. Few acid-green globs are visible.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="obj-card" id="r2_b_hifi">
+    <div class="card-header">
+      <div class="card-num">B</div>
+      <div>
+        <div class="card-title">High-fidelity real-time</div>
+        <div class="card-desc">The detail level a desktop engine such as Unity or Godot would target on a Mac</div>
+      </div>
+      <div><span class="status">recommended</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job fe300b04-6cee-48ef-8bfe-4ec161b22a19</div>
+        <img src="concepts/r2_b_hifi/r2_b_hifi.webp" alt="High-fidelity IronFall mockup from a high overhead camera: two commandos in a rain-soaked burning outpost fire at bone-shelled crawlers while a spitter bulb lobs acid-green globs and a hive spire glows on a bunker" loading="lazy">
+        <a class="media-download" href="concepts/r2_b_hifi/r2_b_hifi.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Real-time 3D gameplay screenshot of a modern high-end PC and console top-down shooter. High overhead gameplay camera pitched about 65 degrees down; the ground fills the entire frame with no sky and no horizon. Characters are small, each about one fifteenth of the frame height, with open ground around them so the action reads clearly. High-fidelity real-time rendering: physically based materials, dynamic shadows from many flickering fire lights, volumetric smoke and fog, light rain with wet reflective mud and concrete, detailed physics debris, film-like color grade with warm fire against cool teal shadows. Scene: a jungle military outpost of sandbag walls, concrete bunkers, a wooden watchtower and fuel barrels, on muddy ground with palm trees at the edges. Two commandos in sleeveless fatigues, one with a red bandana and one with a blue bandana, fight side by side. The red commando fires a spread gun throwing a wide fan of glowing orange bolts; the blue commando fires a crackling blue laser beam. They face an original alien biomechanical faction with bone-white armor plates, bruise-purple flesh and glowing amber veins, not insectoid humanoids and no elongated heads: low six-legged tick-like crawlers swarming at knee height, each with a glowing amber blister on its back; one hulking quadruped brute with a bone-plated shell and a glowing amber weak point on its back; a rooted spitter, a fleshy mortar-like bulb on root legs, lobbing glowing acid-green globs; and in one corner a hive spire of bone and tendrils growing out of a captured concrete bunker with a pulsing amber core, purple fungal creep spreading across the ground around it. Enemy projectiles are glowing acid-green orbs, clearly visible against the ground. The watchtower collapses in an explosion, a fuel barrel bursts into a fireball, sandbags scatter as debris, scorched craters mark the ground. A small winged weapon capsule floats near the players as a power-up pickup. Only the two commandos are human; no other people. No HUD, no text, no logos.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div>
+        <h4>What works</h4>
+        <ul>
+          <li>The gritty 80s commando tone is intact: muscular heroes, rain, wet mud, a burning watchtower.</li>
+          <li>The best readability of fire so far. The acid-green enemy globs pop against the brown ground, separate from the heroes' orange and blue.</li>
+          <li>The alien designs match the lineup in C. The spitter, crawlers and hive spire carry across.</li>
+          <li>The camera is right, and the frame is calmer than round 1.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Issues</h4>
+        <ul>
+          <li>At gameplay size, the red and blue bandanas read only up close. The heroes will need a colored ground ring or outline.</li>
+          <li>The brute came out as a large crawler, not the hulking shelled quadruped.</li>
+          <li>The dark jungle edges sit close to black. Enemies there would be hard to spot.</li>
+          <li>Rain, reflections and many fire lights are the most expensive part to render, though an M4 Pro handles this class of look.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="obj-card" id="r2_c_aliens">
+    <div class="card-header">
+      <div class="card-num">C</div>
+      <div>
+        <div class="card-title">Alien faction lineup</div>
+        <div class="card-desc">Commando for scale, crawler, spitter, brute, flyer, hive spire</div>
+      </div>
+      <div><span class="status">candidate</span></div>
+    </div>
+    <div class="variants">
+      <div class="variant">
+        <div class="var-label">Nano Banana Pro · job de31eec7-1553-4787-8e82-cca82fbaa19f</div>
+        <img src="concepts/r2_c_aliens/r2_c_aliens.webp" alt="Alien faction lineup on gray: a red bandana commando for scale, a bone-shelled crawler with amber blisters, an acid-green spitter bulb on root legs, a hulking purple brute with a bone shell, a glowing manta-like flyer with spore pods, and a hive spire growing from a bunker" loading="lazy">
+        <a class="media-download" href="concepts/r2_c_aliens/r2_c_aliens.png" download>Download original PNG (2752 × 1536)</a>
+        <details class="prompt-disclosure"><summary>Prompt</summary><p class="prompt-note">Saved generation prompt</p><pre>Creature lineup concept sheet for an original alien biomechanical faction in a gritty sci-fi military action game. Stylized realism with semi-realistic materials and consistent art direction. Shape language: bone-white armor plates, bruise-purple flesh and glowing amber veins, organic but engineered, avoiding insectoid humanoids and elongated heads. Left to right on a plain medium-gray studio background, each figure full body and clearly separated, three-quarter front view, in a calm readable pose: a muscular human commando in a red bandana and sleeveless fatigues for scale; a low six-legged tick-like crawler about knee height with a glowing amber blister on its back; a rooted spitter, a fleshy mortar-like bulb on root legs with a glowing acid-green sac; a hulking quadruped brute twice the height of the commando with a bone-plated shell and a glowing amber weak point on its back; a manta-ray-like membranous flyer hovering with dangling glowing spore pods; and a hive spire of bone and tendrils with a pulsing amber core, growing out of a fragment of concrete bunker and rising above all of them. Soft even studio lighting, subtle contact shadows, no text, no labels, no UI, no watermark. 16:9 wide framing.</pre></details>
+      </div>
+    </div>
+    <div class="grid">
+      <div>
+        <h4>What works</h4>
+        <ul>
+          <li>An original faction with no film-alien resemblance. Its look is consistent: bone-white shell, purple flesh, amber glow.</li>
+          <li>Each silhouette suggests its gameplay role: the swarm crawler, the mortar spitter, the shelled brute with a weak point on its back, the bombing flyer, the spawner spire.</li>
+          <li>The glowing weak points tell the player where to shoot.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Issues</h4>
+        <ul>
+          <li>It's drawn as an inked illustration rather than the in-game render style. That's fine for a design sheet, but not a modeling reference.</li>
+          <li>The brute is about 1.6 times the commando's height, not twice as requested.</li>
+          <li>The spitter's acid sac is green, while the rest of the faction glows amber. That's acceptable, because green marks the dangerous projectile.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>A or B, and what it means for the engine</h2>
+    <table class="compare">
+      <thead><tr><th></th><th>A · Stylized</th><th>B · High-fidelity</th></tr></thead>
+      <tbody>
+        <tr><td>Tone</td><td>Drifted to cute; needs gritty proportions back</td><td>Matches the gritty 80s commando brief</td></tr>
+        <tr><td>Readability</td><td>Very high</td><td>High for fire; dark edges need work</td></tr>
+        <tr><td>Art production</td><td>Lighter: simple materials, baked light</td><td>Heavier: PBR materials, dynamic lights, rain, volumetrics</td></tr>
+        <tr><td>Three.js</td><td>Comfortable</td><td>Possible with tricks (baked light, fake reflections, limited dynamic lights), not free</td></tr>
+        <tr><td>Unity / Godot (Mac)</td><td>Easy</td><td>A realistic target on an M4 Pro</td></tr>
+      </tbody>
+    </table>
+    <p>Recommendation: aim for B's tone and lighting with A's clean, readable shapes and adult proportions. That middle ground keeps Three.js a real option and is easy for Unity or Godot. We agree Unreal is not the right tool on this laptop.</p>
+  </section>
+
+  <section>
+    <h2>Proposed round 3: the content</h2>
+    <ul class="checklist">
+      <li><strong>Weapons:</strong> one sheet of 8 guns (spread, laser, flamethrower, homing missiles, rail gun, shotgun, grenade launcher, minigun) and one top-down sheet of their projectiles.</li>
+      <li><strong>Power-ups:</strong> one sheet of capsule types, such as weapon pods, shield, speed, drone buddy, airstrike and health.</li>
+      <li><strong>Enemies:</strong> a second lineup (elite variants, an infected human soldier, a turret growth) and one boss concept.</li>
+      <li><strong>Maps:</strong> four stage themes from the gameplay camera, such as jungle outpost, infested city ruins, dam and waterfall, and the hive interior.</li>
+    </ul>
+    <p>About 10 images, roughly 20 credits.</p>
+  </section>
+</main>
+</body>
+</html>

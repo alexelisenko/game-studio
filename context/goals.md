@@ -1,8 +1,8 @@
 # Goals
 
-Add your current goals here. The starter repository does not assume a job,
-business, channel, schedule or personal background.
+## Current
 
-For a first session, open My Dream Game, read the example design, and ask an agent
-to replace the brief with your own idea. Keep the example unchanged if you would
-prefer to start a new project beside it.
+- Build **IronFall**, a modern 3D overhead run-and-gun inspired by the classic
+  two-commando shooters. Brief: [projects/ironfall](../projects/ironfall/README.md).
+- Now: settle the art direction through concept rounds, then choose an engine
+  (Three.js, Godot, Unity or Unreal).

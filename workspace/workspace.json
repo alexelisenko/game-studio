@@ -1,6 +1,37 @@
 {
   "entities": [
     {
+      "id": "ironfall",
+      "title": "IronFall",
+      "description": "A modern 3D overhead run-and-gun inspired by the classic two-commando shooters: concept rounds, content and the Unity slice plan.",
+      "type": "group",
+      "category": "project",
+      "created": "2026-10-04",
+      "updated": "2026-10-04",
+      "folder": "2026-10-04_ironfall",
+      "steps": [
+        {
+          "name": "Concepts · Round 1",
+          "path": "report.html"
+        },
+        {
+          "name": "Concepts · Round 2",
+          "path": "report_v2.html"
+        },
+        {
+          "name": "Concepts · Round 3",
+          "path": "report_v3.html"
+        },
+        {
+          "name": "Unity slice plan",
+          "path": "unity-slice-plan.md"
+        }
+      ],
+      "status": "active",
+      "pinned": true,
+      "defaultStep": 2
+    },
+    {
       "id": "my-dream-game",
       "title": "My Dream Game",
       "description": "Mr. Mak 64: a small Sky Islands adventure, with character studies, world layouts and a development board.",

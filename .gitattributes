@@ -11,3 +11,22 @@
 *.jpg binary
 *.mp4 binary
 *.ico binary
+
+# Git LFS: full-resolution generated concepts and game production binaries.
+workspace/*/concepts/**/*.png filter=lfs diff=lfs merge=lfs -text
+projects/**/*.png filter=lfs diff=lfs merge=lfs -text
+projects/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+projects/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+projects/**/*.tga filter=lfs diff=lfs merge=lfs -text
+projects/**/*.tif filter=lfs diff=lfs merge=lfs -text
+projects/**/*.psd filter=lfs diff=lfs merge=lfs -text
+projects/**/*.exr filter=lfs diff=lfs merge=lfs -text
+projects/**/*.hdr filter=lfs diff=lfs merge=lfs -text
+projects/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+projects/**/*.obj filter=lfs diff=lfs merge=lfs -text
+projects/**/*.glb filter=lfs diff=lfs merge=lfs -text
+projects/**/*.blend filter=lfs diff=lfs merge=lfs -text
+projects/**/*.wav filter=lfs diff=lfs merge=lfs -text
+projects/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+projects/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+projects/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
